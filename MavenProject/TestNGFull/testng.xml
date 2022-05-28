@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestNG">
+  <test thread-count="5" name="Samiksha">
+    <classes>
+      	<class name="pkges.test2">
+				<methods>
+					<include name=  "testB"/>
+				</methods>
+      </class>
+
+      <class name="pkges.test1"/>
+      <class name="pkges.VerifyLoginPage"/>
+    </classes>
+  </test> <!-- Fulprjl -->
+</suite> <!-- testngg -->
